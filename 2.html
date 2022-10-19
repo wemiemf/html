@@ -1,0 +1,984 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>SchoolSoft</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+  <meta http-equiv="Expires" content="0"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Cache-Control" content="no-cache"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#234675">
+<meta name="msapplication-TileColor" content="#234675">
+<meta name="theme-color" content="#234675">
+  <link href="../../style/frameset.css?rev=2.7" rel="styleSheet" type="text/css"/>
+  
+    <link href="../../style/StyleSheetNew.css?rev=3.10" rel="styleSheet" type="text/css"/>
+    <link href="../../style/StyleSheetMenu.css?rev=2.5" rel="styleSheet" type="text/css"/>
+    <link href="../../style/mainSheet.css?rev=6.1" rel="styleSheet" media="all" type="text/css"/>
+    
+        <link href="../../style/student_sheet.css?rev=2.6" rel="styleSheet" type="text/css"/>
+        
+    
+  
+  <script async src="/nti/react/browser-warning.497003d66776dd44cee4d607289e4c38.js"></script>
+
+</head>
+<body class="pushmenu-push">
+
+<script language="JavaScript" src="../../script/javascripts.js?rev=170915" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/boxover.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/jquery-migrate-1.1.0.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/jquery-ui-1.10.0.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/jquery.viewport.mini.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/bootstrap/bootstrap-transition.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/bootstrap/bootstrap-collapse.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/bootstrap/bootstrap-dropdown.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/jquery.PrintThis.js" type="text/javascript"></script>
+<script language="JavaScript" src="../../script/jquery/schoolsoft-jquery.js?rev=1.10" type="text/javascript"></script>
+
+<div class="colmask leftmenu" >
+  <div class="colright" >
+      <div class="col1">
+        <!-- main content begin -->
+
+
+<div id="main">
+
+  <div class="content_wrapper" id="content">
+
+<script language="JavaScript" src="../../script/fancybox3/jquery.fancybox.min.js" type="text/javascript"></script>
+<link href="../../script/fancybox3/jquery.fancybox.min.css" rel="stylesheet" media="all" type="text/css"/>
+<!-- http://kenwheeler.github.io/slick/ 1.8.1 -->
+<link href="../../script/slick/slick.css" rel="stylesheet" media="all" type="text/css" charset="UTF-8" />
+<link href="../../script/slick/slick-theme.css" rel="stylesheet" media="all" type="text/css" charset="UTF-8" />
+<script language="JavaScript" src="../../script/slick/slick.min.js" type="text/javascript"></script>
+
+
+<script language="JavaScript" src="../../script/stacktrace.min.js?v=1.3.0" type="text/javascript"></script>
+
+<script src="../../script/angular/lib/angular.min.js?v=1.4.0"></script>
+<script src="../../script/angular/lib/ui-grid.min.js"></script>
+<script src="../../script/angular/lib/angular-ui-router.min.js"></script>
+<script src="../../script/angular/lib/angular-animate.min.js"></script>
+<script src="../../script/angular/lib/angular-resource.min.js?v=1.4.0"></script>
+<script src="../../script/angular/lib/ui-bootstrap-tpls-0.13.0.min.js?v=1.002"></script>
+<script src="../../script/angular/lib/angular-sanitize.js?v=1.4.0"></script>
+<script src="../../script/angular/lib/select.min.js"></script>
+
+
+<script src="../../script/angular/lib/angular-filter.js?v=1.4.0"></script>
+<script src="../../script/angular/lib/ng-tags-input.min.js"></script>
+<script src="../../script/angular/lib/angular-bootstrap-checkbox.js"></script>
+<script src="../../script/angular/lib/angular-scrollable-table.min.js"></script>
+<script src="../../script/angular/lib/truncate.js"></script>
+<script src="../../script/angular/lib/pdfmake.min.js?v=0.1.63"></script>
+<script src="../../script/angular/lib/vfs_fonts.js?v=0.1.63"></script>
+<script src="../../script/angular/lib/angular-file-saver.bundle.min.js"></script>
+<script src="../../script/angular/lib/i18n/ui-i18n.js"></script>
+<script src="../../script/angular/lib/i18n/sv.js"></script>
+<script src="../../script/angular/lib/i18n/en.js"></script>
+<script src="../../script/angular/lib/ngDraggable.js"></script>
+
+<script src="../../script/angular/lib/fileupload/load-image.all.min.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-process.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-image.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-audio.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-video.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-validate.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.fileupload-angular.js"></script>
+<script src="../../script/angular/lib/fileupload/jquery.iframe-transport.js"></script>
+<script src="../../script/angular/lib/documentEngine.js"></script>
+
+<link href="../../script/angular/lib/colorpicker/angular-colorpicker-dr.css?rev=1.002" rel="stylesheet" type="text/css"/>
+<script src="../../script/angular/lib/colorpicker/angular-colorpicker-dr.js?rev=1.002"></script>
+
+<link href="../../style/glyphicons_css/glyphicons.css?rev=1001" rel="stylesheet" type="text/css"/>
+<link href="../../style/glyphicons_css/glyphicons-override.css" rel="stylesheet" type="text/css"/>
+<link href="../../style/glyphicons_css/glyphicons-bootstrap.css" rel="stylesheet" type="text/css"/>
+
+<link href="../../script/angular/lib/toaster/toaster.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../script/angular/lib/toaster/scs-toaster.css" rel="stylesheet" type="text/css"/>
+<script src="../../script/angular/lib/toaster/toaster.min.js"></script>
+
+<script src="../../script/angular/lib/bootstrap-switch.min.js"></script>
+<script src="../../script/angular/lib/angular-bootstrap-switch.min.js"></script>
+<link href="../../script/angular/lib/style/bootstrap-switch.css" type="text/css" rel="stylesheet" media="screen">
+
+<script src="../../script/angular/app.js?rev=1.061"></script>
+<script src="../../script/angular/directives.js?rev=1.024"></script>
+<script src="../../script/angular/CommonController.js?rev=1.008"></script>
+<script src="../../script/angular/utils/fullScreenGridModalController.js?rev=1.000"></script>
+<script src="../../script/angular/CommonService.js?rev=1.039"></script>
+<script src="../../script/angular/Constants.js?rev=1.019"></script>
+
+<script src="../../script/angular/directives/ssdatefilter/ss-date-filter.js?rev=1.000"></script>
+<script src="../../script/angular/directives/ssdatefilter/modal/datePickerFilterModalCtrl.js?rev=1.000"></script>
+<script src="../../script/angular/directives/ssonedrivepicker/ssonedrivepicker.js?rev=1.000"></script>
+<script src="../../script/angular/utils/collectionHandler.js?rev=1.000"></script>
+<script src="../../script/angular/utils/dateHandler.js?rev=1.002"></script>
+<script src="../../script/angular/teacher/planningtool/confirmLB/confirmLBController.js"></script>
+
+<link href="../../vendor/scsbootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen">
+<link href="../../vendor/scsbootstrap/css/bootstrap-theme.css" type="text/css" rel="stylesheet" media="screen">
+<link href="../../script/angular/lib/style/ui-grid.min.css?v=1.000" rel="styleSheet" type="text/css" media="screen"/>
+<link href="../../style/scs-ui-grid.css?rev=1.007" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="https://js.live.net/v7.2/OneDrive.js"></script>
+
+<script>var lang = 'en';</script>
+
+<script src="../../script/angular/lib/angular-locale_sv-se.js"></script>
+<script>lang = 'sv';</script>
+
+
+
+<script>
+  
+  var localStorageUserKey = '-2_0';
+</script>
+
+<script>
+  function loadLabel(obj, attr, labelJSON) {
+    if (typeof labels[obj] === 'undefined') {
+      labels[obj] = {};
+    }
+    if (typeof labels[obj][attr] === 'undefined') {
+      labels[obj][attr] = {};
+      labels[obj][attr] = labelJSON;
+    }
+  }
+
+  labels = {};
+  texts = {};
+
+  
+  var parameter_dev_env = false;
+  var parameter_beta_env = false;
+</script>
+
+<style media="print">  .humany-floating-trigger {       display: none;  }</style><style>.humany-floating-trigger {       z-index: 999;  }  .humany-copyright {      display: none;  }  .humany-icon > span.fa-stack {      vertical-align: baseline;   }  .humany-floating-trigger .humany-close-icon svg {      top: -10px;      left: 14px;      width: 15px;  }  .humany-floating#humany_gr-admin .humany-head > div {      background-color: #3a75c4;   }  .humany-floating-trigger.humany_gr-admin .humany-icon i.fa-stack-2x {      color: #3a75c4;   }  .humany-floating#humany_gy-admin .humany-head > div {      background-color: #3a75c4;   }  .humany-floating-trigger.humany_gy-admin .humany-icon i.fa-stack-2x {      color: #3a75c4;   }</style><a href="//schoolsoft.humany.net/elev---vardnadshavare"></a><script>(function(n,t,i,r,u,f,e){for(var o,s=/[?&]{1}(humany[^=]*)=([^&#]*)/g;o=s.exec(n.location.search);)i+=(i.indexOf("?")>-1?"&":"?")+o[1]+"="+o[2];
+    f=t.createElement(u);f.async=!0;f.src=i;e=t.getElementsByTagName(u)[0];e.parentNode.insertBefore(f,e);n[r]=n[r]||{_c:[],configure:function(t){n[r]._c.push(t)}}})(window,document,"//schoolsoft.humany.net/default/embed.js","Humany","script");</script>
+
+<script src="../../script/angular/teacher/blogpost/blogPostService.js?rev=1.011"></script>
+<script src="../../script/angular/directives/blogpost/blogPostListItemDisplayVersion3.js?rev=1.013"></script>
+<link href="../../script/angular/teacher/blogpost/directives/create/css/style.css?rev=1.005" rel="stylesheet" type="text/css"/>
+<script>
+  texts["BUT_Delete"] = {"keyText":"BUT_Delete","text":"Ta bort"};
+  labels['blogpost.name'] = {"object":"blogpost","attribute":"name","text":"Rubrik"};
+  texts['OBJ_BlogPost_Missing_Video'] = {"keyText":"OBJ_BlogPost_Missing_Video","text":"Med hänvisning till Apples nya ålderskategorisering av appar så kan vi inte längre visa videor från YouTube direkt i appen eftersom appen behöver vara tillgänglig även för elever yngre än 17 år. Videon kan fortfarande visas om du loggar in via en webbläsare."};
+  texts['OBJ_BlogPost_Missing_Video_Header'] = {"keyText":"OBJ_BlogPost_Missing_Video_Header","text":"Borttagen videolänk."};
+  texts["LBL_Student_From"] = {"keyText":"LBL_Student_From","text":"Från"};
+  var PRE = false;
+  isApp = false;
+  isTeacher = false;
+</script>
+<div data-ng-app="schoolsoftApp">
+<div class="h1">Startsida</div><div class="page-print"></div><div class="border-bottom"></div>
+<div id="hidden_container" class="hidden">
+<div id="day_stuff0" >
+<div class="h2_container" id="date0"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Måndag 26 sep</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day0-3"><a class="btn" id="day0-0" href="right_student_startpage.jsp?view=day&daymod=-3"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day0-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day0-2" href="right_student_startpage.jsp?view=day&daymod=-1"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date0_content" class="h2_innerno_pad" ><table class="dayViewTopTextBox"><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="heading_bold">Matsedel</div><img src="../../images/icon/plate-cutlery.png" alt="" title="" /><div class="dayViewDetailedTextBox"><label>Dagens lunch:</label> Tacokryddad sojafärssås, serveras med ris &amp; nachochips</div></div></a></td></tr><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="dayViewDetailedTextBox"><label>Vegetariskt:</label> Tacokryddad sojafärssås, serveras med ris &amp; nachochips</div></div></a></td></tr></table><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317528&term=39&requestid=-3" title="header=[Lektion 8:20-9:40 Svenska 1] body=[Personal: ALSA
+<br />Sal/resurs: 103
+<br />Grupp: SVESVE01_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">8:20-9:40 Svenska 1 103 SVESVE01_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317541&term=39&requestid=-3" title="header=[Lektion 12:00-13:20 Matematik 1c] body=[Personal: JONY
+<br />Sal/resurs: 209
+<br />Grupp: MATMAT01c_TE22
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">12:00-13:20 Matematik 1c 209 MATMAT01c_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317544&term=39&requestid=-3" title="header=[Lektion 13:30-14:50 Programmering 1] body=[Personal: ANLÖ
+<br />Sal/resurs: 102
+<br />Grupp: PRRPRR01_TE22:a
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">13:30-14:50 Programmering 1 102 PRRPRR01_TE22:a </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff1" >
+<div class="h2_container" id="date1"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Tisdag 27 sep</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day1-3"><a class="btn" id="day1-0" href="right_student_startpage.jsp?view=day&daymod=-2"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day1-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day1-2" href="right_student_startpage.jsp?view=day&daymod=0"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date1_content" class="h2_innerno_pad" ><table class="dayViewTopTextBox"><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="heading_bold">Matsedel</div><img src="../../images/icon/plate-cutlery.png" alt="" title="" /><div class="dayViewDetailedTextBox"><label>Dagens lunch:</label> Kycklingköttbullar, serveras med pasta &amp; ketchup</div></div></a></td></tr><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="dayViewDetailedTextBox"><label>Vegetariskt:</label> Vegobullar, serveras med pasta &amp; ketchup
+</div></div></a></td></tr></table><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317634&term=39&requestid=-3" title="header=[Lektion 9:30-10:00 Mentorstid] body=[Personal: ANLÖ
+JONY
+<br />Sal/resurs: 102
+<br />Grupp: TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">9:30-10:00 Mentorstid 102 TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317514&term=39&requestid=-3" title="header=[Lektion 10:20-11:40 Engelska 5] body=[Personal: JOBR
+KHMO
+<br />Sal/resurs: 102
+<br />Grupp: ENGENG05_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">10:20-11:40 Engelska 5 102 ENGENG05_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317627&term=39&requestid=-3" title="header=[Lektion 12:10-13:30 Idrott och hälsa 1] body=[Personal: ALSA
+<br />Sal/resurs: Tegelbruket
+<br />Grupp: IDRIDR01_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">12:10-13:30 Idrott och hälsa 1 Tegelbruket IDRIDR01_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317520&term=39&requestid=-3" title="header=[Lektion 14:00-15:00 Matematik 1c] body=[Personal: JONY
+<br />Sal/resurs: 209
+<br />Grupp: MATMAT01c_TE22
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">14:00-15:00 Matematik 1c 209 MATMAT01c_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=320348&term=39&requestid=-3" title="header=[Lektion 15:10-16:30 Historia 1a1] body=[Personal: VILI
+<br />Sal/resurs: 209
+<br />Grupp: HISHIS01a1_TE22
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">15:10-16:30 Historia 1a1 209 HISHIS01a1_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff2" >
+<div class="h2_container" id="date2"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Idag, onsdag 28 sep</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day2-3"><a class="btn" id="day2-0" href="right_student_startpage.jsp?view=day&daymod=-1"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day2-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day2-2" href="right_student_startpage.jsp?view=day&daymod=1"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date2_content" class="h2_innerno_pad" ><table class="dayViewTopTextBox"><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="heading_bold">Matsedel</div><img src="../../images/icon/plate-cutlery.png" alt="" title="" /><div class="dayViewDetailedTextBox"><label>Dagens lunch:</label> Kyckling Tikka Masala, serveras med matvete</div></div></a></td></tr><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="dayViewDetailedTextBox"><label>Vegetariskt:</label> Tikka Masala med linser, serveras med matvete</div></div></a></td></tr></table><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317623&term=39&requestid=-3" title="header=[Lektion 8:40-10:00 Webbutveckling 1] body=[Personal: JOLO
+KHMO
+<br />Sal/resurs: 209
+<br />Grupp: WEUWEB01_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">8:40-10:00 Webbutveckling 1 209 WEUWEB01_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top"><div style="float:right;vertical-align:center;">9:00<img src="../../grafics/week_calendar_timeline_start.png" alt="" /></div></td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317593&term=39&requestid=-3" title="header=[Lektion 10:10-11:30 Matematik 1c] body=[Personal: JONY
+<br />Sal/resurs: 102
+<br />Grupp: MATMAT01c_TE22
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">10:10-11:30 Matematik 1c 102 MATMAT01c_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317587&term=39&requestid=-3" title="header=[Lektion 12:10-13:30 Teknik 1] body=[Personal: JAZA
+<br />Sal/resurs: 110
+<br />Grupp: TEKTEK01_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">12:10-13:30 Teknik 1 110 TEKTEK01_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317637&term=39&requestid=-3" title="header=[Lektion 15:15-16:45 Studiestöd] body=[Personal: SAAR
+JOBR
+ANHO
+VILI
+JOLO
+ANLÖ
+JONY
+JERA
+ALSA
+MASA
+SVSO
+SASU
+JAZA
+<br />Grupp: 20De
+20IT
+20Te
+DE21
+DE22
+IT21
+IT22
+TE21
+TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">15:15-16:45 Studiestöd 20De, 20IT, 20Te, DE21, DE22, IT21, IT22, TE21, TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff3" >
+<div class="h2_container" id="date3"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Torsdag 29 sep</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day3-3"><a class="btn" id="day3-0" href="right_student_startpage.jsp?view=day&daymod=0"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day3-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day3-2" href="right_student_startpage.jsp?view=day&daymod=2"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date3_content" class="h2_innerno_pad" ><table class="dayViewTopTextBox"><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="heading_bold">Matsedel</div><img src="../../images/icon/plate-cutlery.png" alt="" title="" /><div class="dayViewDetailedTextBox"><label>Dagens lunch:</label> Ost &amp; broccolisoppa,  serveras med mjukbröd &amp; pålägg</div></div></a></td></tr><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="dayViewDetailedTextBox"><label>Vegetariskt:</label> Ost &amp; broccolisoppa,  serveras med mjukbröd &amp; pålägg</div></div></a></td></tr></table><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317509&term=39&requestid=-3" title="header=[Lektion 8:30-9:50 Webbutveckling 1] body=[Personal: JOLO
+KHMO
+<br />Sal/resurs: 209
+<br />Grupp: WEUWEB01_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">8:30-9:50 Webbutveckling 1 209 WEUWEB01_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317542&term=39&requestid=-3" title="header=[Lektion 10:30-11:50 Svenska 1] body=[Personal: ALSA
+<br />Sal/resurs: 102
+<br />Grupp: SVESVE01_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">10:30-11:50 Svenska 1 102 SVESVE01_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317579&term=39&requestid=-3" title="header=[Lektion 12:40-14:00 Programmering 1] body=[Personal: ANLÖ
+<br />Sal/resurs: 209
+<br />Grupp: PRRPRR01_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">12:40-14:00 Programmering 1 209 PRRPRR01_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317613&term=39&requestid=-3" title="header=[Lektion 14:30-15:50 Teknik 1] body=[Personal: JAZA
+<br />Sal/resurs: 110
+<br />Grupp: TEKTEK01_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">14:30-15:50 Teknik 1 110 TEKTEK01_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff4" >
+<div class="h2_container" id="date4"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Fredag 30 sep</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day4-3"><a class="btn" id="day4-0" href="right_student_startpage.jsp?view=day&daymod=1"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day4-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day4-2" href="right_student_startpage.jsp?view=day&daymod=3"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date4_content" class="h2_innerno_pad" ><table class="dayViewTopTextBox"><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="heading_bold">Matsedel</div><img src="../../images/icon/plate-cutlery.png" alt="" title="" /><div class="dayViewDetailedTextBox"><label>Dagens lunch:</label> Laxpanett, serveras med kokt potatis &amp; remouladsås</div></div></a></td></tr><tr><td><a href="right_student_lunchmenu.jsp?requestid=39" title=""  ><div class="dayViewDetailedBox"><div class="dayViewDetailedTextBox"><label>Vegetariskt:</label> Grönsaksbiff, serveras med kokt potatis &amp; remouladsås</div></div></a></td></tr></table><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317524&term=39&requestid=-3" title="header=[Lektion 8:00-9:20 Frivillig mattestuga] body=[Personal: JONY
+<br />Sal/resurs: 102
+<br />Grupp: DE21
+DE22
+IT22
+TE21
+TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">8:00-9:20 Frivillig mattestuga 102 DE21, DE22, IT22, TE21, TE22 </div></div></a></div><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=326661&term=39&requestid=-3" title="header=[Lektion 8:00-15:00 Block] body=[Personal: JONY
+<br />Grupp: DE22
+TE22
+<br />Veckor: 39<br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">8:00-15:00 Block DE22, TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317649&term=39&requestid=-3" title="header=[Lektion 9:30-10:40 Engelska 5] body=[Personal: JOBR
+KHMO
+<br />Sal/resurs: 102
+<br />Grupp: ENGENG05_DE22_TE22
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">9:30-10:40 Engelska 5 102 ENGENG05_DE22_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317547&term=39&requestid=-3" title="header=[Lektion 10:50-11:50 Historia 1a1] body=[Personal: VILI
+<br />Sal/resurs: 209
+<br />Grupp: HISHIS01a1_TE22
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">10:50-11:50 Historia 1a1 209 HISHIS01a1_TE22 </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317619&term=39&requestid=-3" title="header=[Lektion 12:30-14:00 Matematik 1c] body=[Personal: JONY
+<br />Sal/resurs: 102
+<br />Grupp: MATMAT01c_TE22:b
+<br />Period: Ht
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">12:30-14:00 Matematik 1c 102 MATMAT01c_TE22:b </div></div></a></div></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"><div class="cal-lesson"><a href="right_student_schedule.jsp?lesson=317526&term=39&requestid=-3" title="header=[Lektion 14:10-15:40 Teknik 1] body=[Personal: JAZA
+<br />Sal/resurs: 110
+<br />Grupp: TEKTEK01_TE22:b
+<br />Period: LÅ
+<br />Veckor: <br />]" ><div class="dayViewDetailedBox"><img src="../../images/icon/schedule.png" alt="" title="" /><div class="dayViewDetailedTextBox">14:10-15:40 Teknik 1 110 TEKTEK01_TE22:b </div></div></a></div></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff5" >
+<div class="h2_container" id="date5"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Lördag 1 okt</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day5-3"><a class="btn" id="day5-0" href="right_student_startpage.jsp?view=day&daymod=2"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day5-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day5-2" href="right_student_startpage.jsp?view=day&daymod=4"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date5_content" class="h2_innerno_pad" ><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="day_stuff6" >
+<div class="h2_container" id="date6"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">Söndag 2 okt</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-day6-3"><a class="btn" id="day6-0" href="right_student_startpage.jsp?view=day&daymod=3"><div class="bold " title="Föregående Dag">&lt;</div></a><a class="btn" id="day6-1" href="right_student_startpage.jsp?view=day">Idag</a><a class="btn" id="day6-2" href="right_student_startpage.jsp?view=day&daymod=5"><div class="bold" title="Nästa Dag">&gt;</div></a></div></div></div></div><div  id="date6_content" class="h2_innerno_pad" ><table class="dayviewtable"><tr><td colspan="2"></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">7:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">8:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">9:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">10:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">11:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">12:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">13:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">14:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">15:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">16:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">17:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td></td></tr><tr><td width="35" class="dayViewTopLeft" valign="top">18:00</td><td class="dayViewTopRight"></td></tr><tr><td width="35" class="dayViewBotLeft">&nbsp;</td><td class="dayViewBotLeftLast"></td></tr></table></div></div>
+
+</div>
+<div id="week_stuff" >
+<div class="h2_container" id="week"><ul class="nav nav-tabs "><li class="" id="monTab"><a href="right_student_startpage.jsp?view=day">Må</a></li><li class="" id="tueTab"><a href="right_student_startpage.jsp?view=day">Ti</a></li><li class="" id="wedTab"><a href="right_student_startpage.jsp?view=day">On</a></li><li class="" id="thuTab"><a href="right_student_startpage.jsp?view=day">To</a></li><li class="" id="friTab"><a href="right_student_startpage.jsp?view=day">Fr</a></li><li class="" id="satTab"><a href="right_student_startpage.jsp?view=day">Lö</a></li><li class="" id="sunTab"><a href="right_student_startpage.jsp?view=day">Sö</a></li><li class="active" id="weekTab"><a href="right_student_startpage.jsp?view=week&week=39">v39</a></li></ul><div class="h2_box"><div class=" h3 " style="margin-top:6px; padding-left:6px;">v39 2022, 26 sep - 2 okt</div><div class="selectors"><div class="btn-toolbar"><div class="btn-group" id="btn-group-date-3"><a class="btn" id="date-0" href="right_student_startpage.jsp?view=week&week=38"><div class="bold" title="Föregående Vecka">&lt;</div></a><a class="btn" id="date-1" href="right_student_startpage.jsp?view=week">Denna vecka</a><a class="btn" id="date-2" href="right_student_startpage.jsp?view=week&week=40"><div class="bold" title="Nästa Vecka">&gt;</div></a></div></div></div></div><div  id="week_content" class="h2_innerno_pad" ></div></div>
+
+</div>
+</div>
+<div class="span6left">
+<div id="show_this">
+</div>
+
+</div>
+<div class="span6right">
+<div class="h2_container" id="absence_con"><div class="h2_box"><div class="h2_box_icon" style="margin-left:-10px; padding-top:2px;"><img src="../../images/icon/calendar-clock.png" alt="" title="" /></div><div class=" h3 " style="margin-top:6px; padding-left:6px;">Närvaro/Frånvaro</div></div><div  id="absence_con_content" class="h2_innerno_pad" ><script language="JavaScript" src="../../script/boxover.js?rev=1.001" type="text/javascript"></script>
+<table class="table table-striped" id="" cellspacing="0" cellpadding="2"  width="100%">
+<tr class="value" onmouseout="this.className='value'" onmouseover="this.className='list_row_item_highlight'">
+ <td valign="top"  ><a href="right_student_lesson_status.jsp?week=39&lesson=317528" class="list"><div class="bold">Mån&nbsp;26 sep&nbsp;8:20&nbsp;Svenska 1</div>Sen ankomst:&nbsp;5&nbsp;minuter&nbsp;</div></a></td>
+</tr>
+</table></div></div>
+<div class="h2_container" id="mess_con"><div class="h2_box"><div class="h2_box_icon" style="margin-left:-10px; padding-top:2px;"><img src="../../images/icon/balloon.png" alt="" title="" /></div><div class=" h3 " style="margin-top:6px; padding-left:6px;">Meddelanden</div></div><div  id="mess_con_content" class="h2_innerno_pad" ><table class="table table-striped table-condensed"></tr><tr class=" " style="" row-href="" ><td style="word-wrap: break-word" valign="top" ><a href="right_student_message.jsp" class="imglink" >Du har 5 olästa meddelanden</a></td></tr></table><script> if ($.browser.msie && parseInt($.browser.version, 10) < 9) {    $('.table.table-striped.table-condensed tbody tr:nth-child(odd)').css('background','#FAFAF5');  }</script></div></div>
+<div class="h2_container" id="news_con"><div class="h2_box"><div class="h2_box_icon" style="margin-left:-10px; padding-top:2px;"><img src="../../images/icon/light_bulb.png" alt="" title="" /></div><div class=" h3 " style="margin-top:6px; padding-left:6px;">Nyheter</div></div><div  id="news_con_content" class="h2_innerno_pad" ><div class="h3_bold">Från Elevhälsan</div><table class="table table-striped news-private" ><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99922&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Det svenska skolsystemet</div><div> F&ouml;lj l&auml;nken och titta p&aring; filmen om det svenska skolsy...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99834&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Utlandsstudiemässa</div><div> &Auml;r du intresserad av utlandsstudier efter gymnasiet?&#127796;  ...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99118&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Gymmet på väster erbjuder</div><div> Hej!  &nbsp;  Gymmet p&aring; v&auml;ster erbjuder er att tr&auml;na ...</div></a></td><td class="news-private-td-right" align="center" ></td></tr></table><div class="h3_bold">Nyheter</div><table class="table table-striped news-private" ><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99910&action=view&type=1"><div class="list-top"></div><div class="heading_bold">LAN?</div><div> Elevr&aring;det vill arrangera ett LAN och vill veta hur stort intres...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99787&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Stöld och lås på skåp</div><div> Tyv&auml;rr har det varit inbrott i ett elevsk&aring;p p&aring; skola...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99782&action=view&type=1"><div class="list-top"></div><div class="heading_bold">LoV-frukost</div><div> Onsdagen den 21 september bjuder skolans Likabehandlings- och v&auml;...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99767&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Vattenproblem</div><div> Vattenautomaten p&aring; v&aring;n 1 &auml;r uppskattad men tyv&auml;...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99609&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Resultat från skolvalet</div><div> Hej!  &nbsp;  Idag &auml;r det valvaka f&ouml;r skolvalet! Mellan kl....</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99600&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Pedagogiskt pris</div><div> Nu har du m&ouml;jlighet att nominera l&auml;rare till &Ouml;rebro ko...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr class="news-private"><td class="news-private-td"><a class="toplist-item" href="right_student_news.jsp?requestid=99466&action=view&type=1"><div class="list-top"></div><div class="heading_bold">Sjukanmälan</div><div> En upplysning&nbsp;ang&aring;ende sjukanm&auml;lan:  &nbsp;  Sjukanm...</div></a></td><td class="news-private-td-right" align="center" ></td></tr><tr><td><div id="loadmorenews">Visa fler nyheter...</div></td><td></td></tr></table></div></div>
+<div class="h2_container" id="tb_con"><div class="h2_box"><div class="h2_box_icon" style="margin-left:-10px; padding-top:2px;"><img src="../../images/icon/clock.png" alt="" title="" /></div><div class=" h3 " style="margin-top:6px; padding-left:6px;">Bokningar</div></div><div  id="tb_con_content" class="h2_innerno_pad" ><table class="table table-striped" ><tr><td><a class="toplist-item" style="float:left;" href="right_student_timebooking.jsp?requestid=6926"><div class="heading_bold overflow-hidden">Utvecklingssamtal</div><div>Anders Löthgren</div></a><span style="float: right"><a class="list" href="right_student_timebooking.jsp?requestid=6926"><div style="float: right" ><span title="header=[] body=[Välj tid] cssbody=[olp]">&nbsp;<img src="../../images/icon/exclamation-red.png" alt="" width="12" height="12" ></span></span></div></a></td></tr></table></div></div>
+
+
+</div>
+
+
+
+<script type="text/javascript">
+$("img[src^=itemPictureFile]:not([id])").each(function(){
+  var src = $(this).attr("src");
+  src = src.replace('tn=1','tn=0');
+  var id = $(this).closest("[id^=blogpostid]").attr("id").substring("blogpostid-".length);
+  $(this).wrap("<a class=\"blogpicture\" data-fancybox=\"blogpost-"+ id +"\" href=\""+src+"\"></a>");
+});
+$("img[src^=showFileImage]:not([id])").each(function(){
+  var src = $(this).attr("src");
+  src = src.replace('tn=1','tn=0');
+  var id = $(this).closest("div[id^=blogpostid]").attr("id").substring("blogpostid-".length);
+  $(this).wrap("<a class=\"blogpicture\" data-fancybox=\"blogpost-"+ id +"\" href=\""+src+"\"></a>");
+});
+
+//.effect("highlight", {highlight color}, speed)
+$(document).ready(function() {
+
+  $(".slick-container").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: true,
+    arrows: false
+  });
+
+  $(".table-striped").css("width","370px").css("word-break","break-word").css("border-right","#cccccc");
+  for(var i=0; i<2; i++) {
+    $(".highlight").children("td").effect("highlight", {color: '#d9edf7'}, 800); //weekly stuff
+  }
+  $(".highlight").children("td").effect("highlight", {color: '#d9edf7'}, 86400000); //weekly stuff
+});
+
+//loadmore news
+$("#loadmorenews").click(function(event) {
+  $.ajax({
+  url: "right_student_news_ajax.jsp?action=loadmore",
+  success: function(data) {
+    $("#news_con_content").hide();
+    $("#news_con_content").html(data);
+    $("#news_con_content").slideDown(900);
+  },
+  cache:false
+  });
+});
+
+
+  $("#show_this").html($("#week_stuff").html());
+
+
+//navigating
+function initNav() {
+  $("li[id^=monTab], li[id^=tueTab], li[id^=wedTab], li[id^=thuTab], li[id^=friTab], li[id^=satTab], li[id^=sunTab], #weekTab").click(function(event){
+    $(".highlight").parent().parent().attr("style",""); //daily tabs - reset style at element with class highlight
+    event.preventDefault();
+    event.stopPropagation();
+    var dayId = 0;
+    var id = $(this).attr("id");
+    if ($(this).attr("id").indexOf("tue")>-1){
+      dayId = 1;
+    } else if ($(this).attr("id").indexOf("wed")>-1){
+      dayId = 2;
+    } else if ($(this).attr("id").indexOf("thu")>-1){
+      dayId = 3;
+    } else if ($(this).attr("id").indexOf("fri")>-1){
+      dayId = 4;
+    } else if ($(this).attr("id").indexOf("sat")>-1){
+      dayId = 5;
+    } else if ($(this).attr("id").indexOf("sun")>-1){
+      dayId = 6;
+    } else if ($(this).attr("id").indexOf("week")>-1){
+      dayId = -1;
+    }
+    if (dayId != -1) {
+      $("#show_this").html($("#day_stuff"+dayId).html());
+    } else {
+      $("#show_this").html($("#week_stuff").html());
+    }
+    $("li.active").removeClass("active");
+    $("li[id^="+id+"]").addClass("active");
+
+    //.effect("highlight", {highlight color}, speed)
+    if($(this).attr("id") == "weekTab") {
+      for(var i=0; i<2; i++) {
+        $(".highlight").children("td").effect("highlight", {color: '#d9edf7'}, 800);
+      }
+      $(".highlight").children("td").effect("highlight", {color: '#d9edf7'}, 86400000);
+    }
+    $(initNav);
+  });
+
+
+  $("#show_this a.btn").click(function(event) {
+    if ($("li.active").attr("id") != "weekTab") {
+      event.preventDefault();
+      event.stopPropagation();
+      var day = parseInt($(this).attr("id").substr(3));
+      var dayMod = 0;
+      //if left
+      if($(this).children('div').html() == '&lt;') {
+        if((day-1) > -1) {
+          dayMod = -1;
+          $("#show_this").html($("#day_stuff"+(day-1)).html());
+        } else {
+          window.location = this;
+        }
+      } //if right
+      else if($(this).children('div').html() == '&gt;') {
+        if((day+1) < 7) {
+          dayMod = 1;
+          $("#show_this").html($("#day_stuff"+(day+1)).html());
+        } else {
+          window.location = this;
+        }
+      } else {
+        window.location = this;
+      }
+      var id = "monTab";
+      if (day+dayMod==1) {
+        id = "tueTab";
+      } else if (day+dayMod==2) {
+        id = "wedTab";
+      } else if (day+dayMod==3) {
+        id = "thuTab";
+      } else if (day+dayMod==4) {
+        id = "friTab";
+      } else if (day+dayMod==5) {
+        id = "satTab";
+      } else if (day+dayMod==6) {
+        id = "sunTab";
+      }
+
+      $("li.active").removeClass("active");
+      $("li[id^="+id+"]").addClass("active");
+      $(initNav);
+    }
+  });
+}
+$(initNav);
+$("div[class^=freetext]").css("cursor","pointer");
+$(".freetexthidden").hide();
+
+$(".freetext").click(function(){
+  $(this).hide();
+  $(".freetexthidden").show();
+});
+$(".freetexthidden").click(function(){
+  $(this).hide();
+  $(".freetext").show();
+});
+
+//prints item with printicon
+function reInitPrint() {
+  $(function() {
+    $('.printarea').click(function() {
+      popupWindow($(this).parent().attr("href")); // fetch the href from the parent a element
+      return false;
+    });
+  });
+}
+reInitPrint();
+
+</script>
+
+</div><!-- ends content -->
+</div><!-- ends main -->
+
+</div> <!--schoolsoftapp-->
+
+  <!-- main content end -->
+  </div> <!-- end col1 -->
+  <div class="col2">
+    <!-- menu begin -->
+    
+      <div id="leftContainer">
+        <div id="leftMenu">
+          <div id="menu_left">
+            <div class="menu_header"  id ="header_header_Aktuellt" >Aktuellt</div>
+<a href="right_student_news.jsp?menu=news"  name="news" ><div class="menu_item"  id ="menu_news" >Nyheter</div></a>
+<a href="right_student_week_calendar.jsp?menu=news_type2"  name="news_type2" ><div class="menu_item"  id ="menu_news_type2" >Kalender</div></a>
+<a href="right_student_lunchmenu.jsp?menu=lunchmenu"  name="lunchmenu" ><div class="menu_item"  id ="menu_lunchmenu" >Matsedel</div></a>
+<a href="right_student_timebooking.jsp?menu=timebooking"  name="timebooking" ><div class="menu_item"  id ="menu_timebooking" >Bokningar</div></a>
+<a href="right_student_message.jsp?menu=message"  name="message" ><div class="menu_item"  id ="menu_message" >Meddelanden</div></a>
+<div class="menu_header"  id ="header_header_Schema" >Schema</div>
+<a href="right_student_schedule.jsp?menu=schedule"  name="schedule" ><div class="menu_item"  id ="menu_schedule" >Scheman</div></a>
+<a href="right_student_test_schedule.jsp?menu=test_schedule"  name="test_schedule" ><div class="menu_item"  id ="menu_test_schedule" >*</div></a>
+<a href="right_student_staff.jsp?menu=contactlist"  name="contactlist" ><div class="menu_item"  id ="menu_contactlist" >Kontaktlistor</div></a>
+<div class="menu_header hand" id="subject_menuoff" style="DISPLAY:none;" onClick="expand('subject_menu');" ><img class="expand_image" src="../../images/icon/control-180.png" />Kurs</div><div class="menu_header hand" id="subject_menuon" style=""  onClick="contract('subject_menu');" ><img class="expand_image" src="../../images/icon/control-270.png" />Kurs</div><div  id="subject_menu" style="" >
+<a href="right_student_subject.jsp?requestid=28698&menu=gradesubject28698"  name="gradesubject28698" ><div class="menu_item"  id ="menu_gradesubject28698" >Block</div></a>
+<a href="right_student_subject.jsp?requestid=19747&menu=gradesubject19747"  name="gradesubject19747" ><div class="menu_item"  id ="menu_gradesubject19747" >Engelska 5</div></a>
+<a href="right_student_subject.jsp?requestid=27246&menu=gradesubject27246"  name="gradesubject27246" ><div class="menu_item"  id ="menu_gradesubject27246" >Frivillig mattestuga</div></a>
+<a href="right_student_subject.jsp?requestid=19742&menu=gradesubject19742"  name="gradesubject19742" ><div class="menu_item"  id ="menu_gradesubject19742" >Historia 1a1</div></a>
+<a href="right_student_subject.jsp?requestid=19795&menu=gradesubject19795"  name="gradesubject19795" ><div class="menu_item"  id ="menu_gradesubject19795" >Idrott och hälsa 1</div></a>
+<a href="right_student_subject.jsp?requestid=19712&menu=gradesubject19712"  name="gradesubject19712" ><div class="menu_item"  id ="menu_gradesubject19712" >Matematik 1c</div></a>
+<a href="right_student_subject.jsp?requestid=19717&menu=gradesubject19717"  name="gradesubject19717" ><div class="menu_item"  id ="menu_gradesubject19717" >Matematik 2c</div></a>
+<a href="right_student_subject.jsp?requestid=19731&menu=gradesubject19731"  name="gradesubject19731" ><div class="menu_item"  id ="menu_gradesubject19731" >Mentorstid</div></a>
+<a href="right_student_subject.jsp?requestid=19791&menu=gradesubject19791"  name="gradesubject19791" ><div class="menu_item"  id ="menu_gradesubject19791" >Programmering 1</div></a>
+<a href="right_student_subject.jsp?requestid=24905&menu=gradesubject24905"  name="gradesubject24905" ><div class="menu_item"  id ="menu_gradesubject24905" >Studiestöd</div></a>
+<a href="right_student_subject.jsp?requestid=19759&menu=gradesubject19759"  name="gradesubject19759" ><div class="menu_item"  id ="menu_gradesubject19759" >Svenska 1</div></a>
+<a href="right_student_subject.jsp?requestid=19744&menu=gradesubject19744"  name="gradesubject19744" ><div class="menu_item"  id ="menu_gradesubject19744" >Teknik 1</div></a>
+<a href="right_student_subject.jsp?requestid=19682&menu=gradesubject19682"  name="gradesubject19682" ><div class="menu_item"  id ="menu_gradesubject19682" >Webbutveckling 1</div></a>
+</div>
+<div class="menu_header"  id ="header_header_Undervisning" >Undervisning</div>
+<a href="right_student_test.jsp?objectpage=1&menu=test_results"  name="test_results" ><div class="menu_item"  id ="menu_test_results" >Arbetsområden</div></a>
+<a href="right_student_forum_list.jsp?objectpage=1&menu=forum_list"  name="forum_list" ><div class="menu_item"  id ="menu_forum_list" >*</div></a>
+<div class="menu_header"  id ="header_header_Elevdokument" >Elevdokument</div>
+<a href="right_student_review.jsp?menu=review"  name="review" ><div class="menu_item"  id ="menu_review" >Elevdokument</div></a>
+<a href="right_student_ability.jsp?objectpage=1&schooltype=9&menu=student_ability"  name="student_ability" ><div class="menu_item"  id ="menu_student_ability" >Sammantagen bedömning</div></a>
+<a href="right_student_course.jsp?menu=course"  name="course" ><div class="menu_item"  id ="menu_course" >Individuell studieplan</div></a>
+<div class="menu_header"  id ="header_header_Nrvaro" >Närvaro</div>
+<a href="right_student_lesson_status.jsp?menu=lesson_status"  name="lesson_status" ><div class="menu_item"  id ="menu_lesson_status" >Översikt</div></a>
+<a href="right_student_absence_student.jsp?menu=absence_student"  name="absence_student" ><div class="menu_item"  id ="menu_absence_student" >Rapport</div></a>
+<div class="menu_header hand" id="linksoff" style="" onClick="expand('links');" ><img class="expand_image" src="../../images/icon/control-180.png" />Filer &amp; länkar</div><div class="menu_header hand" id="linkson" style="DISPLAY:none;"  onClick="contract('links');" ><img class="expand_image" src="../../images/icon/control-270.png" />Filer &amp; länkar</div><div  id="links" style="DISPLAY:none" >
+<a href="right_student_library.jsp?menu=library"  name="library" ><div class="menu_item"  id ="menu_library" >Alla filer &amp; länkar</div></a>
+</div>
+<div class="menu_header"  id ="header_header_" ></div>
+
+          </div>
+        </div>
+      </div>
+    
+    <!-- menu end -->
+  </div>
+  </div> <!-- end colright -->
+  </div>
+  <div id="header">
+    
+      
+
+
+
+
+
+  <form name="userForm" action="top_student.jsp" method="post">
+    <div id="top">
+      <div id="top_content">
+        <span class="text top-gray-bar-info">
+          Elev:
+Emanuel Kreü
+
+        </span>
+        
+          <span class="divider top-gray-bar-info" >
+            <img alt="" src="../../images/divider.jpg" />
+          </span>
+          <span class="text top-gray-bar-info">
+            
+            Senast inloggad 2022-09-27 22:06
+          </span>
+        
+        <span class="divider top-gray-bar-info">
+          <img alt="" src="../../images/divider.jpg" />
+        </span>
+       <span class="text top-gray-bar-info">
+        NTI Gymnasiet Örebro
+
+        </span>
+        <span style="display: inline-block;" class="top-gray-bar-info">
+          &nbsp;
+          
+        </span>
+        <span class="divider top-gray-bar-info">
+          <img alt="" src="../../images/divider.jpg" />
+        </span>
+        
+        <span id="logout" class="text top-gray-bar-info">
+        
+          <a href="https://nologout.academedia.se" target="_top">Logga ut</a>
+        
+        </span>
+
+
+        
+
+        
+
+        
+      </div>
+    </div>
+
+    <div id="container" class="container" style="clear:both;">
+      <div id="top_left">
+        <div id="logo">
+          <div id="logo_image">
+            <a href="javascript:void(0)" onclick="newWindow('http://www.ntigymnasiet.se/orebro')" class="imglink" ><img src="/nti/jsp/logoFile.jsp?logoname=logo_bcfc1770-d628-46b3-a02a-e75b248968e6.png" alt="" class="img-rounded img-responsive"  /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="top_content_wrapper">
+        <div id="menu">
+          <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td class="TopMenu-Thick-Left">
+              </td>
+              <td class="TopMenu-Thick-Bg-Left">
+              </td>
+              <td class="TopMenu-Menu-Left-Bg">
+              </td>
+              <td>
+                <table cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td class="TopMenu-MenuActive-Left"></td>
+                    <td class="TopMenu-MenuActive-Bg" align="center" id="startmenu">
+                      
+                        <a href="right_student_startpage.jsp">Startsida</a>
+                      
+                    </td>
+                    
+                      <td class="TopMenu-MenuInactive-Bg" align="center" id="school">
+                          <a href="right_student_school.jsp">Skolinfo</a>
+                      </td>
+                    
+                    <td class="TopMenu-MenuInactive-Bg" align="center" id="profile">
+                      
+                      <a href="right_student_pwdadmin.jsp">Min profil</a>
+                    </td>
+                    
+                    <td class="TopMenu-MenuActive-Right"></td>
+                  </tr>
+                </table>
+              </td>
+              <td class="TopMenu-Menu-Right-Bg">
+              </td>
+              <td class="TopMenu-Thick-Bg-Right">
+              </td>
+              <td class="TopMenu-Thick-Bg-Right-2">
+              </td>
+              <td class="TopMenu-Thick-Right">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript">
+    var session=getCookie('hash');
+
+    var t = setTimeout("checkCookie()",1000);
+
+    function checkCookie() {
+      var tmpSession=getCookie('hash');
+      if (session!=tmpSession) {
+        window.parent.frames.document.write('<div style="width:750px;"><div style="margin: 0 auto;font-weight:bold;font-size:10px; font-family:Verdana,Arial,Sans-Serif;width:250px;text-align:center;border:red 1px solid;"><div style="background-color:red;color:white;">Varning</div><span style="margin:5px 5px 5px 5px;">Du har loggats ut på grund av att någon annan har loggat in i samma webbläsare.</span></div></div>');
+      } else {
+        t=setTimeout("checkCookie()",1000);
+      }
+    }
+
+    function getCookie(c_name) {
+      var i,x,y,ARRcookies=document.cookie.split(";");
+      for (i=0;i<ARRcookies.length;i++) {
+        x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+        y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+        x=x.replace(/^\s+|\s+$/g,"");
+        if (x==c_name) {
+          return unescape(y);
+        }
+      }
+    }
+
+    
+      window.parent.document.title = "SchoolSoft - Elev";
+    
+
+  </script>
+
+    
+  </div>
+
+<div id="footer">
+  
+    <p></p>
+  
+</div>
+<script>
+  $(document).ready(function () {
+    initSize();
+    $('#menu_').attr("class", "menu_item_selected");
+    try {
+      $('#startmenu').attr("class", "TopMenu-MenuInactive-Bg");
+    } catch (c) {
+    }
+    try {
+      $('#school').attr("class", "TopMenu-MenuInactive-Bg");
+    } catch (c) {
+    }
+    try {
+      $('#profile').attr("class", "TopMenu-MenuInactive-Bg");
+    } catch (c) {
+    }
+    try {
+      $('#startmenu').attr("class", "TopMenu-MenuActive-Bg");
+    } catch (c) {
+    }
+    ;
+  });
+</script>
+
+
+
+
+<div id="top-box" class="dontPrint">
+  <!-- First -->
+  <div id="first-warning">
+    <div id="close_icon_timer" style="display: none"></div>
+    <div class="rubrik">Varning</div>
+    <p>Du har varit inaktiv i: <span id="inactive"></span>minuter.</p>
+    <p>
+      <span id="time"></span>
+      till automatisk utloggning på grund av inaktivitet.
+      <div id="closebutton" style="text-align: center;">
+        <input type="button" name="OK" value="OK" onclick=" showContent();" style="float:left" id="okbutton" class="btn" />
+
+      </div>
+    </p>
+  </div>
+  <!-- Second -->
+  <div id="second-warning">
+    
+    <div class="rubrik">Varning</div>
+    <p>Du har nu loggats ut på grund av inaktivitet.</p>
+    <p>
+      
+      <table cellspacing="1" cellpadding="2" ><tr><td style="border:none;" valign="middle"><a href="https://sms.schoolsoft.se/nti/samlLogin.jsp?usertype=student&amp;ajaxlogin=1"  onclick="showContent();"target="_blank" >Till inloggningssidan</a></td><td style="border:none;" valign="bottom"><a href="https://sms.schoolsoft.se/nti/samlLogin.jsp?usertype=student&amp;ajaxlogin=1"  onclick="showContent();"target="_blank" ><img src="../../images/icon/arrow-000-medium.png" alt="" ></a></td></tr></table>
+
+    </p>
+    
+</div>
+</div>
+<script language="JavaScript" type="text/javascript">
+
+    var topRightTimer;
+    var timeBetweenWarnAndLogout;
+    var timeUntilLogout;
+    var timeout;
+    var counter = 0;
+    var failedLogins = 0;
+    var halfMinCorrection = 30000;
+
+    var lastAccessTime = new Date().getTime();
+    var timeLoggedIn = 0;
+    var updateInterval = 1000;
+
+    if(typeof window.localStorage !== "undefined"){
+        localStorage.setItem("lastAccessTime", new Date().getTime());
+    }
+
+    resetTimer();
+
+    //Set top-right logout timer
+    var logoutTimer = timeUntilLogout;
+
+    function setTopRightTimer() {
+        $('#timeUntilLogout').html((logoutTimer/60000).toFixed(0) + " minuter till automatisk utloggning");
+        topRightTimer = setInterval(function () {
+
+            //If browser support localstorage
+            if (typeof window.localStorage !== "undefined") {
+                logoutTimer -= updateInterval;
+                //New lastAccessTime is set in another tab
+                if(lastAccessTime != localStorage.getItem("lastAccessTime") && timeUntilLogout > 0){
+                    $('#top-box').hide(0, onTopBoxHidden);
+                    lastAccessTime = localStorage.getItem("lastAccessTime");
+                    clearTimeout(timeout);
+                    showContent();
+                    resetTimer();
+                }
+
+                timeLoggedIn = new Date().getTime() - lastAccessTime;
+                logoutTimer = 1800000 - timeLoggedIn;
+                $('#timeUntilLogout').html(((logoutTimer + halfMinCorrection) / 60000).toFixed(0) + " minuter till automatisk utloggning");
+
+                if (timeLoggedIn > 1800000){
+                    $('#timeUntilLogout').html("Ej inloggad");
+                    clearInterval(topRightTimer);
+                }
+            } else {
+                logoutTimer -= updateInterval;
+                $('#timeUntilLogout').html(((logoutTimer + halfMinCorrection) / 60000).toFixed(0) + " minuter till automatisk utloggning");
+
+                if (logoutTimer <= 0) {
+                    $('#timeUntilLogout').html("Ej inloggad");
+                    clearInterval(topRightTimer);
+                }
+            }
+        }, updateInterval);
+    }
+    setTopRightTimer();
+
+    function showTopBox(timer){
+        $('#top-box').show(0, onTopBoxShown);
+        $('#top-box').focus();
+        $('#top-box').css('top', $(window).scrollTop());
+        $('#top-box').css('left', ($(window).width()/2) - (parseInt($('#top-box').css('width'))/2));
+        if(timer > 0){
+            toggleBackSpace(false);
+            $('#first-warning').show();
+            $('#second-warning').hide();
+        }else{
+            toggleBackSpace(true);
+            hideContent();
+            $('#content_wrapper').hide();
+            $('#first-warning').hide();
+          
+          location.href='https://nologout.academedia.se';
+          
+        }
+        $('#top-box').animate({height: "230px"}, 400);
+    }
+
+    function onTopBoxHidden() {
+      toggleBackSpace(true);
+    }
+
+    function onTopBoxShown() {
+      toggleBackSpace(false);
+    }
+    function showContent(){
+        toggleBackSpace(true);
+        $('#content_wrapper').show();
+        $('#top-box').hide(0, onTopBoxHidden);
+        
+
+        
+    }
+
+    function hideContent(){
+        toggleBackSpace(false);
+        $('#content_wrapper').hide();
+        $('#top-box').focus();
+    }
+
+    function autoClick(){
+      toggleBackSpace(true);
+      $('#content_wrapper').show();
+      $('#top-box').hide(0, onTopBoxHidden);
+    }
+
+    function resetTimer() {
+        timeBetweenWarnAndLogout = 300000; // time before timeout to display warning: 5min=300000 1min = 60000
+        timeUntilLogout = 1800000;
+        logoutTimer = timeUntilLogout;
+        if (timeUntilLogout==null) {
+            timeUntilLogout = 1800000; //30 minutes default if not set on server
+        }
+        counter=0;
+        timeout=setTimeout("showTopBox('"+(timeUntilLogout - timeBetweenWarnAndLogout)+"'); timedCount();",timeUntilLogout - timeBetweenWarnAndLogout);
+    }
+
+    function timedCount() {
+        var timeLeft = (((timeBetweenWarnAndLogout))/1000)-counter;
+        if (timeLeft >= 0) {
+            var minutes = Math.floor(timeLeft /60);
+            var seconds = timeLeft - minutes * 60;
+            $('#time').html(((minutes<10)?"0"+minutes:minutes)+':'+((seconds<10)?"0"+seconds:seconds));
+            $('#inactive').html(((timeUntilLogout-timeBetweenWarnAndLogout)/60000).toFixed(0) + " ");
+            counter++;
+            timeout=setTimeout("timedCount()",1000);
+        } else {
+            clearTimeout(timeout);
+            showTopBox(0);
+        }
+    }
+
+    function relogin() {
+        var usertype = $('#usertype_ajax').val();
+        var sspassword = $('#sspassword_ajax').val();
+        var ssusername = $('#ssusername_ajax').val();
+        var orgid = $('#organization_ajax').val();
+        var formData = {usertype:usertype,ssusername:ssusername,sspassword:sspassword,ajaxlogin:1,organization:orgid};
+    $.ajax({
+        url: "../Login.jsp?action=login",
+        cache: false,
+        type: "POST",
+        data: formData,
+        success: function(data) {
+            $('#sspassword_ajax').val('');
+            $('#wrongpasswd').css("display",'none');
+            if (data.replace(/^\s+|\s+$/g, '') == "login ok") { //special since IE can't use trim()
+                $('#wrongpasswd').css("display",'none');
+                $('#wrongpasswddisabled').css("display",'none');
+                showContent();
+                resetTimer();
+                setTopRightTimer();
+                failedLogins = 0;
+                if (typeof window.localStorage !== "undefined") {
+                  localStorage.setItem("lastAccessTime", new Date().getTime());
+                }
+            } else if (data.replace(/^\s+|\s+$/g, '') == "login failed") {
+                failedLogins++;
+                if (failedLogins>1) {
+                    $('#sspassword_ajax').attr('disabled','disabled');
+                    $('#loginbutton').attr('disabled','disabled');
+                    $('#wrongpasswddisabled').css("display",'');
+                } else {
+                    $('#wrongpasswd').css("display", 'block');
+                }
+            }
+        },
+        error : function(data) {
+            //
+        }
+    });
+    }
+
+    function toggleBackSpace(on) {
+        //if on enable backspace
+        if (on) {
+          $(document).unbind('keydown');
+        } else {
+            $(document).bind({
+                keydown: function (event) {
+                    if (event.keyCode == 8 && $(event.target).attr('id') != 'sspassword_ajax') {//8 = backspace
+                        event.stopPropagation();
+                        event.preventDefault();
+                    }
+                }
+            });
+        }
+    }
+
+</script>
+
+
+</body>
+</html>
